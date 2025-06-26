@@ -1,2 +1,98 @@
-.venv
+# Depression Emotion Models
 DepressionEmo_Models/*
+!DepressionEmo_Models/.gitkeep
+
+# Environment variables
+.env
+.env.*
+
+# Python virtual environments
+Tokenzrey.venv/
+venv/
+env/
+ENV/
+.venv/
+.Python
+python*/
+
+# Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+*.egg
+.eggs/
+wheels/
+MANIFEST
+
+# Unit test / coverage reports
+.coverage
+.coverage.*
+.pytest_cache/
+htmlcov/
+coverage.xml
+*.cover
+.hypothesis/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# ML/DL specific
+*.pt
+*.pth
+*.onnx
+*.h5
+*.hdf5
+*.pkl
+*.joblib
+*.bin
+logs/
+runs/
+wandb/
+lightning_logs/
+*.ckpt
+
+# Dataset files
+data/
+datasets/
+DepressionEmo_Dataset/
+DepressionEmo_Output/
+
+# Editors and IDEs
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.project
+.classpath
+.settings/
+*.sublime-workspace
+*.sublime-project
+
+# OS specific
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+.directory
+
+# Logs and temp files
+logs/
+*.log
+tmp/
+temp/
+
+# Local working files
+scratch/
+notes/
+todos.md
+
+# Keep placeholder files
+!.gitkeep
